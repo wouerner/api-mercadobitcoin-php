@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c23147c781015eeac4ab37d9dcef94ff",
+    "content-hash": "9cffbaba53ed6b9496343c99260693cc",
     "packages": [
         {
             "name": "vlucas/phpdotenv",
@@ -55,12 +55,57 @@
                 "environment"
             ],
             "time": "2018-10-30T17:29:25+00:00"
+        },
+        {
+            "name": "wouerner/mercadobitcoin-api",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wouerner/mercadobitcoin-api.git",
+                "reference": "3f50c32ad62b5ababdeb486d55ec7cc1168d9336"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wouerner/mercadobitcoin-api/zipball/3f50c32ad62b5ababdeb486d55ec7cc1168d9336",
+                "reference": "3f50c32ad62b5ababdeb486d55ec7cc1168d9336",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "6.*"
+            },
+            "type": "project",
+            "autoload": {
+                "psr-4": {
+                    "Wouerner\\MercadoBitcoin\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Wouenrer",
+                    "email": "wouerner@protonmail.com"
+                }
+            ],
+            "description": "mercadobitcoin-api",
+            "keywords": [
+                "api",
+                "mercadobitcoin"
+            ],
+            "time": "2019-01-07T16:57:10+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "wouerner/mercadobitcoin-api": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

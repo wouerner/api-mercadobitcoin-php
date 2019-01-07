@@ -3,6 +3,7 @@
         "psr-4": {"Wouerner\\": "./"}
     },
     "require": {
-        "vlucas/phpdotenv": "^2.5"
+        "vlucas/phpdotenv": "^2.5",
+        "wouerner/mercadobitcoin-api": "dev-master"
     }
 }
